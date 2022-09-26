@@ -1,0 +1,51 @@
+body {
+    position: relative;
+    min-height: 100vh;
+    text-align: center;
+    background-color: #193549;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+h1 {
+    margin: 0;
+    padding: 24px;
+}
+
+footer.shoutout {
+    position: absolute;
+    bottom: 12px;
+    font-size: 12px;
+    right: 5px;
+    color: lightgray
+}
+
+footer.shoutout a {
+    color: lightgray
+}
+
+:root {
+    --base: #ffc600;
+    --size: 100px;
+    --blur: 10px;
+}
+
+img {
+    height: var(--size);
+    filter: blur(var(--blur));
+}
+
+.titre {
+    color: var(--base);
+}
+
+.controls {
+    margin-bottom: 50px;
+}
+
+input {
+    width: 100px;
+}
